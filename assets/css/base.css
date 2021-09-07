@@ -1,0 +1,54 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --star-gold-color: #ffce3e;
+
+
+    --height-header:70px;
+
+}
+.body-app__info-heading{
+    font-size: 3rem;
+    padding: 8px 0;
+}
+.body-app__info-desc{
+    font-size: 1.4rem;
+    padding: 8px 0;
+}
+/* control btn */
+.body-app__control{
+    position: absolute;
+}
+.body-app__control{
+    height: 50px;
+    width: 50px;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.body-app__control.right{
+    transform: translateY(-30%);
+    top: 30%;
+    right: -14px;
+}
+.body-app__control.left{
+    transform: translateY(-30%);
+    top: 30%;
+    left: -14px;
+}
+.body-app__control--no-active{
+    opacity: 0.8;
+}
